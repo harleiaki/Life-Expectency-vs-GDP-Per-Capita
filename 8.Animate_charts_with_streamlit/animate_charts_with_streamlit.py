@@ -19,8 +19,8 @@ df=gapminder[gapminder['year']==years_select]
 # color by continent 
 # fig = px.scatter(df, x='gdpPercap', y='lifeExp', color='continent',hover_name='continent',log_x=True,size='pop',hover_name='country',size_max=55,range_x=[100,100000],range_y=[25,90])
 fig = px.scatter(gapminder, x='gdpPercap', y='lifeExp', color='continent', size='pop', size_max=40, 
-                hover_name='country', log_x=True, animation_frame='year',
-                 animation_group='country', range_x=[100, 10000], range_y=[25,90])
+                hover_name='country', log_x=True,
+               range_x=[100, 10000], range_y=[25,90])
 fig.update_layout(width=900)
 st.header("Customized Plot for " + str(years_select) )
 st.write(fig)
