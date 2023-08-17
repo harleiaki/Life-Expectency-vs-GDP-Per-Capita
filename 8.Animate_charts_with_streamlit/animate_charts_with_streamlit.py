@@ -16,7 +16,7 @@ years=gapminder['year'].unique().tolist()
 years_select=st.selectbox('select year for data',years,0)
 
 df=gapminder[gapminder['year']==years_select] 
-color by continent 
+# color by continent 
 # fig = px.scatter(df, x='gdpPercap', y='lifeExp', color='continent',hover_name='continent',log_x=True,size='pop',hover_name='country',size_max=55,range_x=[100,100000],range_y=[25,90])
 fig = px.scatter(gapminder, x='gdpPercap', y='lifeExp', color='continent', size='pop', size_max=40, 
                 hover_name='country', log_x=True, animation_frame='year',
