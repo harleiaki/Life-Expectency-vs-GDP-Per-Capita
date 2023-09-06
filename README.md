@@ -4,5 +4,5 @@ https://www.kaggle.com/code/jhossain/explore-the-gapminder-dataset-with-plotly-e
 
 
 
-https://github.com/harleiaki/test/assets/96266332/c885f541-9200-41cb-af6d-54b7a0bf17cf
+https://github.com/harleiaki/Life-Expectency-vs-GDP-Per-Capita/assets/96266332/4aa16d99-bafd-48f3-b470-abc57c6f3428
 
